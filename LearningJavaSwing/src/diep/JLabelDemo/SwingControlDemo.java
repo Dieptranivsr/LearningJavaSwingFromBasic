@@ -1,4 +1,4 @@
-package JLabelDemo;
+package diep.JLabelDemo;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -25,6 +25,9 @@ public class SwingControlDemo {
 		mainFrame = new JFrame("Vi du mo dau Java Swing");
 		//mainFrame.setMaximumSize(null);
 		mainFrame.setSize(400, 400);
+		//ImageIcon img = new ImageIcon("/home/dieptran/eclipse-workspace/LearningJavaSwing/image/rsz_iconlogolabv2_2020.jpg");
+		//mainFrame.setIconImage(img.getImage());
+		//mainFrame.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/image/rsz_iconlogolabv2_2020.jpg")));
 		mainFrame.setLayout(new GridLayout(3, 1));
 		mainFrame.addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent windowEvent) {
